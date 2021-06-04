@@ -1,0 +1,28 @@
+#assignment-instructions {
+    color: red;
+    font-family: sans-serif;
+}
+
+li:nth-child(2) > code { /* Specificity overules the bottom */
+    color: green;
+}
+
+code {
+    font-family: monospace;
+    color: red;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+/*li:not(:first-child) */
+li + li {
+    background-color: black;
+    color: white;
+}
+
+ol > li {
+    background-color: black;
+    color: white;
+}
